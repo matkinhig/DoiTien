@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55A6675EDE40D5A966E6FE21 /* Pods_money_exchanger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D7885E96DE19B1A8179387 /* Pods_money_exchanger.framework */; };
+		CAB6971D1D0A674300B3A1A4 /* ExchangeRatesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB6971C1D0A674300B3A1A4 /* ExchangeRatesManager.swift */; };
+		CABA9EBF1D09B9A200F8504F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA9EBE1D09B9A200F8504F /* AppDelegate.swift */; };
+		CABA9EC41D09B9A200F8504F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABA9EC21D09B9A200F8504F /* Main.storyboard */; };
+		CABA9EC61D09B9A200F8504F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABA9EC51D09B9A200F8504F /* Assets.xcassets */; };
+		CABA9EC91D09B9A200F8504F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABA9EC71D09B9A200F8504F /* LaunchScreen.storyboard */; };
+		CABA9ED71D09C43200F8504F /* MyriadPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CABA9ED11D09C43200F8504F /* MyriadPro-Regular.otf */; };
+		CABA9ED81D09C43200F8504F /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CABA9ED21D09C43200F8504F /* Roboto-Light.ttf */; };
+		CABA9ED91D09C43200F8504F /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CABA9ED31D09C43200F8504F /* Roboto-Medium.ttf */; };
+		CABA9EDA1D09C43200F8504F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA9ED61D09C43200F8504F /* MainViewController.swift */; };
+		CAD2EC6F1D0ADD4F0047199C /* CConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD2EC6E1D0ADD4F0047199C /* CConstants.swift */; };
+		CAE89B7B1D15615D00997C3D /* AlamofirePlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE89B7A1D15615D00997C3D /* AlamofirePlayground.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0ACE7A1CA766F9B641DC545C /* Pods-money-exchanger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-money-exchanger.debug.xcconfig"; path = "Target Support Files/Pods-money-exchanger/Pods-money-exchanger.debug.xcconfig"; sourceTree = "<group>"; };
+		49D7885E96DE19B1A8179387 /* Pods_money_exchanger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_money_exchanger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB3C36CA8BA8F5A981CB181 /* Pods-money-exchanger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-money-exchanger.release.xcconfig"; path = "Target Support Files/Pods-money-exchanger/Pods-money-exchanger.release.xcconfig"; sourceTree = "<group>"; };
+		CAB6971C1D0A674300B3A1A4 /* ExchangeRatesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeRatesManager.swift; sourceTree = "<group>"; };
+		CABA9EBB1D09B9A200F8504F /* money-exchanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "money-exchanger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABA9EBE1D09B9A200F8504F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CABA9EC31D09B9A200F8504F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CABA9EC51D09B9A200F8504F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CABA9EC81D09B9A200F8504F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CABA9ECA1D09B9A200F8504F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABA9ED11D09C43200F8504F /* MyriadPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Regular.otf"; sourceTree = "<group>"; };
+		CABA9ED21D09C43200F8504F /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		CABA9ED31D09C43200F8504F /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		CABA9ED61D09C43200F8504F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CAD2EC6E1D0ADD4F0047199C /* CConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CConstants.swift; sourceTree = "<group>"; };
+		CAE89B7A1D15615D00997C3D /* AlamofirePlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofirePlayground.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CABA9EB81D09B9A200F8504F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A6675EDE40D5A966E6FE21 /* Pods_money_exchanger.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55CDE89E7C1784664481F48E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0ACE7A1CA766F9B641DC545C /* Pods-money-exchanger.debug.xcconfig */,
+				6DB3C36CA8BA8F5A981CB181 /* Pods-money-exchanger.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9E2700CC6404B54B7BD24D11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49D7885E96DE19B1A8179387 /* Pods_money_exchanger.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CABA9EB21D09B9A200F8504F = {
+			isa = PBXGroup;
+			children = (
+				CABA9EBD1D09B9A200F8504F /* money-exchanger */,
+				CABA9EBC1D09B9A200F8504F /* Products */,
+				55CDE89E7C1784664481F48E /* Pods */,
+				9E2700CC6404B54B7BD24D11 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CABA9EBC1D09B9A200F8504F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CABA9EBB1D09B9A200F8504F /* money-exchanger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CABA9EBD1D09B9A200F8504F /* money-exchanger */ = {
+			isa = PBXGroup;
+			children = (
+				CABA9EBE1D09B9A200F8504F /* AppDelegate.swift */,
+				CABA9EC51D09B9A200F8504F /* Assets.xcassets */,
+				CABA9ED01D09C43200F8504F /* Custom Assets */,
+				CABA9ECA1D09B9A200F8504F /* Info.plist */,
+				CABA9EC71D09B9A200F8504F /* LaunchScreen.storyboard */,
+				CABA9EC21D09B9A200F8504F /* Main.storyboard */,
+				CABA9ED41D09C43200F8504F /* Utils */,
+				CABA9ED51D09C43200F8504F /* Views */,
+			);
+			path = "money-exchanger";
+			sourceTree = "<group>";
+		};
+		CABA9ED01D09C43200F8504F /* Custom Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CABA9ED11D09C43200F8504F /* MyriadPro-Regular.otf */,
+				CABA9ED21D09C43200F8504F /* Roboto-Light.ttf */,
+				CABA9ED31D09C43200F8504F /* Roboto-Medium.ttf */,
+			);
+			name = "Custom Assets";
+			path = "custom-assets";
+			sourceTree = "<group>";
+		};
+		CABA9ED41D09C43200F8504F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CAE89B7A1D15615D00997C3D /* AlamofirePlayground.swift */,
+				CAD2EC6E1D0ADD4F0047199C /* CConstants.swift */,
+				CAB6971C1D0A674300B3A1A4 /* ExchangeRatesManager.swift */,
+			);
+			name = Utils;
+			path = utils;
+			sourceTree = "<group>";
+		};
+		CABA9ED51D09C43200F8504F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CABA9ED61D09C43200F8504F /* MainViewController.swift */,
+			);
+			name = Views;
+			path = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CABA9EBA1D09B9A200F8504F /* money-exchanger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABA9ECD1D09B9A200F8504F /* Build configuration list for PBXNativeTarget "money-exchanger" */;
+			buildPhases = (
+				5B4880A3245D96E1CEBF6697 /* [CP] Check Pods Manifest.lock */,
+				CABA9EB71D09B9A200F8504F /* Sources */,
+				CABA9EB81D09B9A200F8504F /* Frameworks */,
+				CABA9EB91D09B9A200F8504F /* Resources */,
+				02B6F8977103A98A4924A39F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "money-exchanger";
+			productName = "money-exchanger";
+			productReference = CABA9EBB1D09B9A200F8504F /* money-exchanger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CABA9EB31D09B9A200F8504F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Thanh Nguyen";
+				TargetAttributes = {
+					CABA9EBA1D09B9A200F8504F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W353M7PR99;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = CABA9EB61D09B9A200F8504F /* Build configuration list for PBXProject "money-exchanger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = CABA9EB21D09B9A200F8504F;
+			productRefGroup = CABA9EBC1D09B9A200F8504F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CABA9EBA1D09B9A200F8504F /* money-exchanger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CABA9EB91D09B9A200F8504F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABA9EC91D09B9A200F8504F /* LaunchScreen.storyboard in Resources */,
+				CABA9EC61D09B9A200F8504F /* Assets.xcassets in Resources */,
+				CABA9ED91D09C43200F8504F /* Roboto-Medium.ttf in Resources */,
+				CABA9ED81D09C43200F8504F /* Roboto-Light.ttf in Resources */,
+				CABA9ED71D09C43200F8504F /* MyriadPro-Regular.otf in Resources */,
+				CABA9EC41D09B9A200F8504F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02B6F8977103A98A4924A39F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-money-exchanger/Pods-money-exchanger-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/KRActivityIndicatorView/KRActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/KRProgressHUD/KRProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Toaster/Toaster.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toaster.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-money-exchanger/Pods-money-exchanger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B4880A3245D96E1CEBF6697 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-money-exchanger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CABA9EB71D09B9A200F8504F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB6971D1D0A674300B3A1A4 /* ExchangeRatesManager.swift in Sources */,
+				CAE89B7B1D15615D00997C3D /* AlamofirePlayground.swift in Sources */,
+				CABA9EDA1D09C43200F8504F /* MainViewController.swift in Sources */,
+				CABA9EBF1D09B9A200F8504F /* AppDelegate.swift in Sources */,
+				CAD2EC6F1D0ADD4F0047199C /* CConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CABA9EC21D09B9A200F8504F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABA9EC31D09B9A200F8504F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CABA9EC71D09B9A200F8504F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABA9EC81D09B9A200F8504F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CABA9ECB1D09B9A200F8504F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CABA9ECC1D09B9A200F8504F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CABA9ECE1D09B9A200F8504F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ACE7A1CA766F9B641DC545C /* Pods-money-exchanger.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W353M7PR99;
+				INFOPLIST_FILE = "money-exchanger/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = matkinhig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		CABA9ECF1D09B9A200F8504F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DB3C36CA8BA8F5A981CB181 /* Pods-money-exchanger.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W353M7PR99;
+				INFOPLIST_FILE = "money-exchanger/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = matkinhig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CABA9EB61D09B9A200F8504F /* Build configuration list for PBXProject "money-exchanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABA9ECB1D09B9A200F8504F /* Debug */,
+				CABA9ECC1D09B9A200F8504F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABA9ECD1D09B9A200F8504F /* Build configuration list for PBXNativeTarget "money-exchanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABA9ECE1D09B9A200F8504F /* Debug */,
+				CABA9ECF1D09B9A200F8504F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CABA9EB31D09B9A200F8504F /* Project object */;
+}
